@@ -1,0 +1,16 @@
+Router latest version need to install this one
+   -> npm install react-router-dom
+
+    <Route exact path="/" component={Home}/>
+    ->exact is used to load particular comp otherwise all will list in the same page does act as subset behavior.
+
+<a> tag will reload the page so we can usebelow
+    import {Link,NavLink} from "react-router-dom"; -> prevent the page reload
+     <li><Link to="/">Home</Link></li>
+        ->Link there is no active class added when u inspect
+
+        ->NavLink active class added
+
+
+npm install axios -> used to make the request
+
